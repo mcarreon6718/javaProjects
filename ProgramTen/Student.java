@@ -1,6 +1,7 @@
 //Maranatha Smith
 //Java Programming
 //May 2, 2020
+//Edit: February 22, 2021
 //Student sub class to person super class
 public class Student extends Person {
     //Private variables for studentID, Major, and Level
