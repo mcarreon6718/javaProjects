@@ -1,6 +1,7 @@
 //Maranatha Smith
 //Java Programming
 //May 2, 2020
+//Edit: February 22, 2021
 //Person Class
 
 public class Person {
