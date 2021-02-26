@@ -1,6 +1,7 @@
 //Maranatha Smith
 //Java Programming
 //May 2, 2020
+//Edit: February 22, 2021
 //Instructor sub class to person super class
 public class Instructor extends Person {
     //Private varialbes for the instructorID, Subject Area, and Years teaching. 
