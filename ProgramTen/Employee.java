@@ -1,6 +1,7 @@
 //Maranatha Smith
 //Java Programming
 //May 2, 2020
+//Edit: February 22, 2021
 //Employee sub class to the Person Super class
 public class Employee extends Person {
     //private variables for the employee ID, department, and years served.
