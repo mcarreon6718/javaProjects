@@ -13,8 +13,10 @@ public class College {
     public static void main(final String[] args) {
         //Main method; declare variable for the users choice of account to create.
         // int userChoice; edit 2/2021
-      
-       //Switch statement to call methods to create one of the sub classes of the Person Class.
+
+
+
+      // Switch statement to call methods to create one of the sub classes of the Person Class.
          while(true){
              printInstructions(); // while loop and printInstructions method edit 2/2021
             switch(userChoice) {
@@ -24,7 +26,7 @@ public class College {
                 case 2:
                 getInstructorAttributes();
                 break;
-                case 3: 
+                case 3:
                 getEmployeeAttributes();
                 break;
                 case 4:
@@ -75,7 +77,7 @@ public static int printInstructions() {
 //                 case 2:
 //                 getInstructorAttributes();
 //                 break;
-//                 case 3: 
+//                 case 3:
 //                 getEmployeeAttributes();
 //                 break;
 //                 case 4:
@@ -86,8 +88,8 @@ public static int printInstructions() {
 //                 break;
 //                 }
 //             }
-
-     
+//
+//
 //     }
 
     public static void getStudentAttributes() {
