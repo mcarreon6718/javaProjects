@@ -7,16 +7,16 @@ import java.util.*;
 public class College {
     //declaration of scanner object inorder to get input.
     static Scanner keyboard = new Scanner(System.in);
+    // declare fiels of userChoice to be used in program. edit 2/2021
     private static int userChoice;
 
     public static void main(final String[] args) {
         //Main method; declare variable for the users choice of account to create.
-        // int userChoice;
-
-        
+        // int userChoice; edit 2/2021
+      
        //Switch statement to call methods to create one of the sub classes of the Person Class.
          while(true){
-             printInstructions();
+             printInstructions(); // while loop and printInstructions method edit 2/2021
             switch(userChoice) {
                 case  1:
                 getStudentAttributes();
@@ -65,10 +65,30 @@ public static int printInstructions() {
 }
 
 
-    public static void getUserChoice(int userChoice) {
+//     public static void getUserChoice(int userChoice) {
+//          while(true){
+//              printInstructions(); // while loop and printInstructions method edit 2/2021
+//             switch(userChoice) {
+//                 case  1:
+//                 getStudentAttributes();
+//                 break;
+//                 case 2:
+//                 getInstructorAttributes();
+//                 break;
+//                 case 3: 
+//                 getEmployeeAttributes();
+//                 break;
+//                 case 4:
+//                 System.out.println("Ending the Program.");
+//                 System.exit(0);
+//                 default:
+//                 System.out.println("Pleas Enter a choice of 1, 2, 3, or 4.");
+//                 break;
+//                 }
+//             }
 
      
-    }
+//     }
 
     public static void getStudentAttributes() {
         //Creation of a new student object.
